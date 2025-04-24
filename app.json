@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Project2",
-    "slug": "Project2",
+    "slug": "rahul-manwani",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,10 +19,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rahulmanwani.rahulmanwani"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f8a07a3a-4882-4f12-8d46-db99c0cfed5c"
+      }
+    },
+    "owner": "rahulmanwani"
   }
 }
